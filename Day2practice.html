@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Login Form</title>
+  </head>
+  <body>
+    <h1>Simple Form Using HTML</h1>
+    <form action="">
+      <label for="">Student Name</label><br />
+      <input type="text" placeholder="enter your name" /><br /><br />
+      <label for="">Fathers Name</label><br />
+      <input type="text" placeholder="enter your Father name" /><br /><br />
+      <label for="">Date Of Birth</label><br />
+      <input type="date" /><br /><br />
+
+      <label for="">Address</label><br />
+      <input type="text" placeholder="enter your address" /><br /><br />
+      <h4>Select Your City?</h4>
+      <input list="state" />
+      <datalist id="state">
+        <option value="Nanded">Maharashtra</option>
+        <option value="Latur">Maharashtra</option>
+        <option value="Aurangabaad">Maharashtra</option>
+        <option value="Mumbai">Maharashtra</option>
+        <option value="Nagpur">Maharashtra</option>
+        <option value="Pune">Maharashtra</option>
+        <option value="Jaalna">Maharashtra</option>
+        <option value="Parbhani">Maharashtra</option>
+        <option value="Akola">Maharashtra</option>
+        <option value="Thaana">Maharashtra</option>
+        <option value="Bhokar">Maharashtra</option>
+      </datalist>
+      <h3>Select Gender</h3>
+      <label for="">Male</label>
+      <input type="radio" name="Gender" /><br />
+      <label for="">Female</label>
+      <input type="radio" name="Gender" /><br /><br />
+      <label for="">E-mail</label><br />
+      <input type="email" placeholder="enter your e-mail" /><br /><br />
+      <label for="">Password</label><br />
+      <input type="password" placeholder="enter your password" /><br /><br />
+      <label for="">Branch Name</label><br />
+      <input type="text" placeholder="enter your branch name" /><br /><br />
+      <label for="">Subject Code</label><br />
+      <input list="Subject Code" /><br /><br />
+      <datalist id="Subject Code">
+        <option value="Data Structers And Algorithms">221542</option>
+        <option value="Discrete Mathematics">221543</option>
+        <option value="Engineering Mathematics 3rd ">221544</option>
+        <option value="Java Programming">221545</option>
+      </datalist>
+      <h3>How many Assigment Do You Completed?</h3>
+      <input type="number" min="0" max="10" /><br />
+      <h3>Select Exam Mode</h3>
+      <label for="">Online</label>
+      <input type="radio" name="Exam" /><br />
+      <label for="">Offline</label>
+      <input type="radio" name="Exam" /><br /><br />
+      <h3>How Was Your Semester Experience?</h3>
+      <input type="range" />
+
+      <h3>Languages you known</h3>
+      <input type="checkbox" />
+      <label for="">HTML</label><br />
+      <input type="checkbox" />
+      <label for="">Javascript</label><br />
+      <input type="checkbox" />
+      <label for="">Python</label><br />
+      <input type="checkbox" />
+      <label for="">Java</label><br />
+      <input type="checkbox" />
+      <label for="">Cotlin </label><br />
+      <h3>Do You Have Github Account?</h3>
+      <label for="">Yes</label>
+      <input type="radio" name="account" /><br />
+      <label for="">NO</label>
+      <input type="radio" name="account" /><br /><br />
+      <h4>Enter Your Github Account Link Here</h4>
+      <input type="url" /><br /><br />
+      <h4>Upload Your Githup Account Profile</h4>
+      <input type="image" /><br /><br />
+      <input type="reset" /><br /><br />
+      <h5>Submit Your Form</h5>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
